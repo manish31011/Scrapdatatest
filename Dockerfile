@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-WORKDIR /app/app
-
 RUN pip install -r requirements.txt
 
 # Install chromium and chromedriver
