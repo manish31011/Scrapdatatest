@@ -1,11 +1,7 @@
-import os
 from flask import Flask, request, jsonify
-from dotenv import load_dotenv
 from login_selenium import login_turnitin
 
-load_dotenv()
-
-API_KEY = os.getenv("SECRET_API_KEY")
+API_KEY = "123456"
 
 app = Flask(__name__)
 
